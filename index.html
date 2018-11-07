@@ -20,7 +20,7 @@
           </div>
           <div class="login-sub2">
             Password<br>
-            <input class="header-password" type="text" name="Password" placeholder=""><br>
+            <input class="header-password" type="password" name="Password" placeholder=""><br>
             <a class="forgot-link" href="#">Forgot account?</a>
           </div>
           <input class="header-button" type="submit" value="Log In">
@@ -64,13 +64,13 @@
               <input type="text" name="mobile" placeholder="Mobile number or email">
             </div>
             <div class="password">
-              <input type="text" name="password" placeholder="New password">
+              <input type="password" name="password" placeholder="New password">
             </div>
           </div>
           <div class="birthdayAndBelow">
             <div class="birthdayStuff">
               <p class="bdayName">Birthday</p>
-              <select name="birthday_month">
+              <select class="month" name="birthday_month">
                 <option value="0">Month</option>
                 <option value="1">Jan</option>
                 <option value="2">Feb</option>
@@ -85,7 +85,7 @@
                 <option value="11" selected="1">Nov</option>
                 <option value="12">Dec</option>
               </select>
-              <select name="birthday_day">
+              <select class="day" name="birthday_day">
                 <option value="0">Day</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -119,7 +119,7 @@
                 <option value="30">30</option>
                 <option value="31">31</option>
               </select>
-              <select name="birthday_year">
+              <select class="year" name="birthday_year">
                 <option value="0">Year</option>
                 <option value="2018">2018</option>
                 <option value="2017">2017</option>
@@ -238,13 +238,12 @@
               </select>
             </div>
             <div class="whyBdayDiv">
-              <a class="whyBday"href="#">Why do I need to provide my</a>
-              <a class="whyBday"href="#">birthday?</a>
+              <a class="whyBday" title="Click for more information" href="#">Why do I need to provide my <br>birthday?</a>
             </div>
           </div>
           <div class="gender">
-            <input class="female" type="radio" name="gender" value="female"> Female
-            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input class="male" type="radio" name="gender" value="male" > Male
           </div>
           <div class="privacy">
             <p class="tAndA">By clicking Sign Up, you agree to our <a href="#" target="_blank">Terms</a>, <a href="#" target="_blank">Data Policy</a> and <a href="#" target="_blank">Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time.</p>
