@@ -80,6 +80,10 @@ input[type="submit"] {
   margin-right: 28px;
 }
 
+.fb-logo:hover {
+  cursor: pointer;
+}
+
 .login {
   color: white;
   font-weight: normal;
@@ -487,6 +491,41 @@ button:hover {
   color: rgb(115, 115, 115);
   line-height: 14.74px;
   font-family: system-ui, -apple-system, system-ui, ".SFNSText-Regular", sans-serif;
+}
+
+.plusDiv {
+  height: 18px;
+  width: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: rgb(102, 109, 127);
+  font-size: 20px;
+  border: 1px solid #ccd0d5;
+  background: #f5f6f7;
+  position: relative;
+  vertical-align: middle;
+  text-decoration: none;
+  position: relative;
+  vertical-align: middle;
+  text-decoration: none;
+  transition: .6s;
+}
+
+.plus {
+  height: 12px;
+  width: 12px;
+  bottom: 1px;
+  text-decoration: none;
+
+
+}
+
+.plusDiv:hover {
+  background-color: rgb(225, 230, 237);
+  border-color: #ccd0d5;
+  color: #4b4f56;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* .divider {
