@@ -57,7 +57,7 @@ input[type="submit"] {
  */
 
 .header{
-  width: 1423px;
+  width: 1427px;
   height: 82px;
   background-color: rgb(68, 93, 163);
   display: flex;
@@ -141,7 +141,7 @@ input[type="submit"] {
 
 .main {
   display: grid;
-  width: 1423px;
+  width: 1427px;
   height: 540px;
   background-color: rgb(237, 240, 246);
   display: flex;
@@ -424,7 +424,7 @@ button:hover {
 
 .footer {
   height: 136px;
-  width: 1423px;
+  width: 1427px;
   background: white;
   display: flex;
   justify-content: center;
