@@ -293,7 +293,7 @@ input[type="submit"] {
   grid-template-columns: 47% 63%;
  }
 
- .bdayName {
+.bdayName {
    height: 24px;
    width: 399px;
    color: rgb(29, 33, 41);
@@ -420,7 +420,7 @@ button:hover {
 
 .footer {
   height: 136px;
-  width: 1423;
+  width: 1423px;
   background: white;
   display: flex;
   justify-content: center;
@@ -430,41 +430,65 @@ button:hover {
 .footer-body {
   height: 136px;
   width: 980px;
+  font-family:  system-ui, -apple-system, system-ui, ".SFNSText-Regular", sans-serif;
   font-size: 12px;
-  color: #737373;
+  font-weight: 400;
+  line-height: 16.08px;
+  color: rgb(115, 115, 115);
   margin: 50px auto;
   display: grid;
   grid-template-rows: 50% 50%;
   align-items: flex-end;
+
 
 }
 
 .footer a {
   color: #365899;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
 
 .languages {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 20px;
+  justify-content: flex-start;
+  padding-bottom: 8px;
   border-bottom: 1px solid #dddfe2;
   /* align-items: flex-end; */
   /* align-self: flex-end; */
 }
 
-.links {
-  display: flex;
-  justify-content: space-between;
-  /* align-items: flex-start; */
+.languages li {
+  margin-right: 10px;
 
 }
 
+.links {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+
+}
+
+.links li {
+  margin-right: 22px;
+
+}
 .trademark {
   margin-top: 15px;
   margin-bottom: 30px;
-  font-size: 12px;
+  font-size: 11px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+  line-height: 14.74px;
+  font-family: system-ui, -apple-system, system-ui, ".SFNSText-Regular", sans-serif;
 }
+
 /* .divider {
   border-bottom: 1px solid #dddfe2;
   font-size: 1px;
